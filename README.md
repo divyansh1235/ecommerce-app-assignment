@@ -34,3 +34,34 @@ docker-compose up --build
 ##Order Page
 ![OrdersPage](https://github.com/user-attachments/assets/9ba1f57f-405d-47ba-9570-8a5b005c9544)
 
+
+##  What This Application Does
+
+This is a full-stack e-commerce application where users can:
+
+- Browse products
+- Add/remove items from cart
+- Update quantity dynamically
+- Place orders
+- View order history
+
+##  Application Flow
+
+1. User opens the frontend (React app)
+2. Frontend fetches products from backend API
+3. User adds items to cart
+4. Cart state is managed using Redux Toolkit
+5. User places order
+6. Backend processes order and stores it in MySQL
+7. User can view order history
+
+##  System Flow
+
+Frontend (React)
+        ↓
+Nginx (Reverse Proxy)
+        ↓
+Backend (Spring Boot)
+        ↓
+Database (MySQL)
+
