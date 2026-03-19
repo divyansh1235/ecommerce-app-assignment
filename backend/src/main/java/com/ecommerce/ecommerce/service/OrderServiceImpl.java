@@ -74,16 +74,7 @@ public class OrderServiceImpl implements OrderService {
 
         Order saved = orderRepository.save(order);
 
-        for (CartItem ci : cartItems) {
-            int rowsUpdated = productRepository.decreaseStock(
-                    ci.getProduct().getId(), ci.getQuantity());
-
-            if (rowsUpdated == 0) {
-                throw new BadRequestException(
-                        "Stock update failed for \"" + ci.getProduct().getName() +
-                                "\". It may have been bought by someone else.");
-            }
-        }
+       
 
 
         cartService.clearCart();

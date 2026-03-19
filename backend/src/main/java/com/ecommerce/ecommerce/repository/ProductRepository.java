@@ -19,9 +19,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 List<Product> findByCategoryIgnoreCase(String category);
 List <Product> findByNameContainingIgnoreCase(String name);
 
-    @Modifying
-    @Query("UPDATE Product p SET p.stock = p.stock - :quantity WHERE p.id = :productId AND p.stock >= :quantity")
-    int decreaseStock(@Param("productId") Long productId, @Param("quantity") int quantity);
+  
 
 
 
