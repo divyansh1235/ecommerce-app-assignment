@@ -30,4 +30,7 @@ docker-compose up --build
 
 ##Cart Page
 ![CartPage](https://github.com/user-attachments/assets/b42b16e9-bc83-4fe8-b096-63e243319231)
-##
+
+##Order Page
+![OrdersPage](https://github.com/user-attachments/assets/9ba1f57f-405d-47ba-9570-8a5b005c9544)
+
