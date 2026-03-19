@@ -24,3 +24,4 @@ git clone <your-repo-url>
 cd ecommerce-assignment
 docker-compose up --build
 
+![HomePage](https://github.com/user-attachments/assets/042a394b-2378-4775-ad2a-004f49582a9b)
