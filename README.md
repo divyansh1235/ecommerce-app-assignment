@@ -19,9 +19,15 @@ DTOs are used at Controller↔Service boundary.
 Entities stay within Service↔Repository.
 
 ## Quick Start
-```bash
+bash
 git clone <your-repo-url>
 cd ecommerce-assignment
 docker-compose up --build
 
+##PAGES
+##Home Page
 ![HomePage](https://github.com/user-attachments/assets/042a394b-2378-4775-ad2a-004f49582a9b)
+
+##Cart Page
+![CartPage](https://github.com/user-attachments/assets/b42b16e9-bc83-4fe8-b096-63e243319231)
+##
