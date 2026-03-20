@@ -13,7 +13,7 @@ VALUES
    'https://m.media-amazon.com/images/I/51g+JumJl9L.jpg', 'Clothing', 75),
 
   ('Yoga Mat', 'Non-slip eco-friendly yoga mat with carry strap.', 799.00,
-   'https://images.unsplash.com/photo-1601925228004-a4ecc11b56e9?w=400', 'Fitness', 120),
+   'https://m.media-amazon.com/images/I/612K2lgbyIL._SL1500_.jpg', 'Fitness', 120),
 
   ('Mechanical Keyboard', 'Compact TKL mechanical keyboard with RGB backlight.', 4999.00,
    'https://dellstatic.luroconnect.com/media/catalog/product/cache/dd2a0577161cfa9edc1f09acc4e3c944/k/e/keyboard-aw420k-xkb-05-bk-gallery-01_1_11zon_1.jpg', 'Electronics', 40),
