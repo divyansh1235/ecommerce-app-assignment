@@ -39,7 +39,7 @@ docker compose down
 
 
 
-##PAGES
+###PAGES
 ##Home Page
 ![HomePage](https://github.com/user-attachments/assets/042a394b-2378-4775-ad2a-004f49582a9b)
 
@@ -50,7 +50,7 @@ docker compose down
 ![OrdersPage](https://github.com/user-attachments/assets/9ba1f57f-405d-47ba-9570-8a5b005c9544)
 
 
-##  What This Application Does
+###  What This Application Does
 
 This is a full-stack e-commerce application where users can:
 
@@ -60,7 +60,7 @@ This is a full-stack e-commerce application where users can:
 - Place orders
 - View order history
 
-##  Application Flow
+###  Application Flow
 
 1. User opens the frontend (React app)
 2. Frontend fetches products from backend API
@@ -70,7 +70,7 @@ This is a full-stack e-commerce application where users can:
 6. Backend processes order and stores it in MySQL
 7. User can view order history
 
-##  System Flow
+###  System Flow
 
 Frontend (React)
         ↓
