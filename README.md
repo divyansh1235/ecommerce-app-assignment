@@ -18,11 +18,26 @@ Controller → Service Interface → ServiceImpl → Repository → MySQL
 DTOs are used at Controller↔Service boundary.  
 Entities stay within Service↔Repository.
 
-## Quick Start
-bash
-git clone <your-repo-url>
-cd ecommerce-assignment
-docker-compose up --build
+## Docker Setup
+
+## Prerequisites
+
+[Docker Desktop] installed and running
+
+## Run the full app with one command
+docker compose up --build
+
+
+Frontend: http://localhost:3000
+Backend API: http://localhost:8080/api/products
+MySQL: localhost:3307
+
+## Stop the app
+docker compose down
+
+
+
+
 
 ##PAGES
 ##Home Page
